@@ -64,7 +64,7 @@ def predict(review: ReviewInput):
                 truncation=True,
                 padding="max_length",
                 max_length=256,
-                return_tensors="numpy"
+                return_tensors="np"
             )
 
             # Prepare inputs for ONNX
