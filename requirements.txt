@@ -1,13 +1,8 @@
 fastapi
 uvicorn
-tqdm
 pandas
 numpy
-scikit-learn
-nltk
-joblib
-
-torch
+huggingface_hub
 transformers
-datasets
-scikit-learn
+onnx
+onnxruntime
